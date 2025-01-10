@@ -38,9 +38,9 @@ function ProductSkeleton() {
             <Skeleton className="h-48 w-full" />
             <Skeleton className="h-48 w-full" />
           </CardHeader>
-          <CardContent>
+          <CardFooter>
             <Skeleton className="h-48 w-full" />
-          </CardContent>
+          </CardFooter>
         </Card>
       ))}
     </div>
@@ -60,9 +60,9 @@ async function ProductCard() {
             <CardTitle>{product.name}</CardTitle>
             <CardDescription>{product.description}</CardDescription>
           </CardHeader>
-          <CardContent>
+          <CardFooter>
             <p>{product.price}</p>
-          </CardContent>
+          </CardFooter>
         </Card>
       ))}
     </div>
